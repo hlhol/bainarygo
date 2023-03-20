@@ -12,6 +12,6 @@ func main() {
 	get.Scan()
 	input := get.Text()
 
-	fmt.Printf("This is my first scanner %v ", input)
+	fmt.Printf("This is my first scanner in go language %v ", input)
 
 }
