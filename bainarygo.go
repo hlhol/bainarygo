@@ -1,17 +1,11 @@
 package main
 
-import (
-	"bufio"
-	"fmt"
-	"os"
-)
+/*"bufio"
+
+"os"*/
 
 func main() {
-	get := bufio.NewScanner(os.Stdin)
-	fmt.Println("input text:")
-	get.Scan()
-	input := get.Text()
-
-	fmt.Printf("This is my first scanner in go language %v ", input)
 
 }
+
+var bainaryNum [8]int = [8]int{1, 2, 4, 8, 16, 32, 64, 128}
